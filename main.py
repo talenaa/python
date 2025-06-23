@@ -11,9 +11,22 @@ print(first_name) # When printing a variable don't put it in double or single qu
 # f-strings - A feature that improves printing and readability. For example:
 
 second_name = "barbosa"
-age = "18"
-print(f"my second name is {second_name} and i am {age} years old") # By using an f-string we can add multiple variables, making it easier to put values.
+hobbie = "draw"
+print(f"my second name is {second_name} and i like to {hobbie}") # By using an f-string we can add multiple variables, making it easier to put values.
 
 nationality = "brazilian"
 holiday = "são joão"
 print(f"i am {nationality} and my favorite brazilian holiday is {holiday}")
+
+# Integer - Is a whole number, a great example of integers could be someone's age. Integers should not be between quotes because that would make it a string.
+
+age = 18
+print(f"I am {age} years old")
+
+# Another example of integers can be quantities.
+
+quantity = 5
+print(f"I bought {quantity}kg of potatoes")
+
+num_of_students = 35
+print(f"there are {num_of_students} students in my classroom")
