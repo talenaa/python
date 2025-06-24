@@ -30,3 +30,14 @@ print(f"I bought {quantity}kg of potatoes")
 
 num_of_students = 35
 print(f"there are {num_of_students} students in my classroom")
+
+# Float - A float is a number, but it contains decimal portions. For example:
+
+price = 27.55
+print(f"the price for the shoe is ${price}")
+
+gpa = 4.7
+print(f"my gpa is {gpa}")
+
+distance = 10.5
+print(f"the distance until the beach is {distance}km")   
